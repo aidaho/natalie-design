@@ -15,7 +15,14 @@ export default function ContactModal() {
         <button>{t("close")}</button>
       </form>
       <div className="modal-box">
-        <h3 className="mb-4 text-lg font-bold">{t("title")}</h3>
+        <div className="relative flex items-center justify-center mb-4">
+          <h3 className="text-lg font-bold text-center">{t("title")}</h3>
+          <form method="dialog" className="absolute right-4">
+            <button className="btn btn-ghost p-2 text-xl transition-colors duration-200 hover:bg-gray-100 hover:rounded-lg">
+              ✕
+            </button>
+          </form>
+        </div>
         <div className="space-y-2">
           <p>
             <strong>{t("email")}:</strong> {decode(encodedEmail)}
@@ -23,7 +30,7 @@ export default function ContactModal() {
           <p>
             <strong>{t("phone")}:</strong> {decode(encodedPhone)}
           </p>
-          <div className="flex gap-4 pt-4">
+          <div className="flex gap-4 pt-4 justify-center">
             <a
               className="btn btn-outline btn-sm"
               href={`https://wa.me/${decode(encodedPhone)}`}
@@ -41,11 +48,6 @@ export default function ContactModal() {
               Telegram
             </a>
           </div>
-        </div>
-        <div className="modal-action">
-          <form method="dialog">
-            <button className="btn">{t("close")}</button>
-          </form>
         </div>
       </div>
     </dialog>
