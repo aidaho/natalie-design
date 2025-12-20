@@ -1,6 +1,6 @@
 # natalie-design
 
-**Next.js server-side rendered serverless site **
+**Next.js server-side rendered serverless site**
 
 
 
@@ -47,8 +47,13 @@ How to check for security vulnerabilities and patched versions
 pnpm audit | grep -E "high|critical" -B3 -A10
 ```
 
+How to auto-translate new project descriptions
+``` sh
+scripts/update-translations.sh public/projects/pages/charcoal-apartment/en.mdx
+```
 
 How to prepare images before committing into a tree
 ```sh
-mogrify -filter Lanczos -adaptive-blur 1 -quality 80 -adaptive-resize 3000x3000
+mogrify -quality 65 -resize 2048x2048\> *.jpg
+for f in *.png; do convert "$f" -quality 65 -resize 2048x2048\> "${f%.png}.jpg"; done
 ```
