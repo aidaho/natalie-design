@@ -1,7 +1,17 @@
 import { useTranslations } from "next-intl"
+import { use } from "react"
 import Image from "next/image"
+import RichText from '@/components/RichText'
 
-export default function WhatWeDoPage() {
+type Props = {
+  params: Promise<{ locale: string }>
+}
+
+export default function WhatWeDoPage(props: Props) {
+  const params = use(props.params)
+  // Enable static rendering
+  const locale = params.locale
+
   const t = useTranslations("WhatWeDoPage")
 
   const TileRow = ({
@@ -14,26 +24,35 @@ export default function WhatWeDoPage() {
     contentKey: "tile1" | "tile2" | "tile3"
   }) => (
     <div
-      className={`flex ${reverse ? "md:flex-row-reverse" : "md:flex-row"} flex-col gap-8 w-full mb-16`}
+      className={`grid ${reverse ? "md:grid-cols-[1fr_1fr]" : "md:grid-cols-[1fr_1fr]"} grid-cols-1 gap-8 w-full mb-16`}
     >
-      <div className="md:w-1/2 w-[calc(100%+32px)] -mx-4 md:mx-0 h-[480px] md:h-auto relative flex-shrink-0">
-        <Image
-          src={imageSrc}
-          alt={t(`${contentKey}.alt`)}
-          fill
-          className="object-contain md:object-cover lg"
-        />
+      {/* Image column */}
+      <div
+        className={`${reverse ? "md:order-2" : "md:order-1"} order-2 h-[480px] md:h-full relative`}
+      >
+        <div className="absolute inset-0 md:relative md:inset-auto md:h-full">
+          <Image
+            src={imageSrc}
+            alt={t(`${contentKey}.alt`)}
+            fill
+            className="object-contain md:object-cover"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+        </div>
       </div>
-      <div className="md:w-1/2 w-full px-4 md:px-8 py-4 md:py-8 lg flex items-center justify-center overflow-y-auto">
-        <div className="prose max-w-2xl md:text-base text-sm">
-          <h2 className="md:text-3xl text-2xl mb-4">
+      {/* Text column */}
+      <div
+        className={`${reverse ? "md:order-1" : "md:order-2"} order-1 px-4 md:px-8 py-4 md:py-8 flex items-center`}
+      >
+        <div className="prose max-w-2xl md:text-base text-sm w-full">
+          <h2 className="text-header mb-4">
             {t(`${contentKey}.title`)}
           </h2>
+          <br />
           <div className="whitespace-pre-line break-words">
-            {t.rich(`${contentKey}.content`, {
-              title: chunks => <h2 className="text-3xl">{chunks}</h2>,
-              b: chunks => <b>{chunks}</b>,
-            })}
+            <RichText locale={locale}>
+              {tags => t.rich(`${contentKey}.content`, tags)}
+            </RichText>
           </div>
         </div>
       </div>

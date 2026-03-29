@@ -1,6 +1,6 @@
 import "@/styles/globals.css"
 import { clsx } from "clsx"
-import { Inter } from "next/font/google"
+import { Roboto_Condensed } from "next/font/google"
 import { NextIntlClientProvider } from "next-intl"
 import ContactModal from "@/components/ContactModal"
 import { getMessages } from "next-intl/server"
@@ -9,7 +9,11 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import { Analytics } from "@vercel/analytics/react"
 
-const inter = Inter({ subsets: ["latin"] })
+const robotoCondensed = Roboto_Condensed({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  style: ["normal", "italic"],
+})
 
 type Props = {
   children: ReactNode
@@ -23,7 +27,7 @@ export default async function BaseLayout({ children, locale }: Props) {
 
   return (
     <html className="h-full" lang={locale}>
-      <body className={clsx(inter.className, "flex h-full flex-col")}>
+      <body className={clsx(robotoCondensed.className, "flex h-full flex-col")}>
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />
           <main className="flex-1">{children}</main>

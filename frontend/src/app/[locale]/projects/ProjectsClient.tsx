@@ -22,7 +22,7 @@ export default function ProjectsClient({
       : projects.filter(p => p.type === selectedType)
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8">
       <div className="mb-8 flex gap-4 flex-wrap justify-center">
         {types.map(type => (
           <button
