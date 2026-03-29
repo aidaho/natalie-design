@@ -21,9 +21,11 @@ export default function AboutPage() {
 
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold mb-6">{t("title")}</h1>
-          <p className="text-lg leading-relaxed whitespace-pre-line">
-            {t("description")}
-          </p>
+          <div className="text-lg leading-relaxed whitespace-pre-line">
+            {t.rich("description", {
+              b: (chunks) => <b>{chunks}</b>,
+            })}
+          </div>
         </div>
       </div>
     </div>

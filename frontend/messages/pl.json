@@ -1,18 +1,18 @@
 {
   "Error": {
-    "description": "<p>Niestety wystąpił błąd.</p><p>Możesz spróbować <retry>przeładować stronę</retry>, którą odwiedzałeś.</p>",
+    "description": "<p>Niestety napotkaliśmy błąd.</p><p>Możesz spróbować <retry>odświeżyć stronę</retry>, którą odwiedzałeś.</p>",
     "title": "Coś poszło nie tak!"
   },
   "Metadata": {
     "title": "Natalie Pyndyk Design",
-    "description": "Natalia Pyndyk: Projektantka wnętrz komercyjnych, mieszkalnych i przestrzeni publicznych. Specjalizacja: wnętrza sklepowe, biurowe, Airbnb, domowe oraz koncepcje biznesowe."
+    "description": "Natalia Pyndyk: projektantka przestrzeni komercyjnych, mieszkalnych i publicznych. Specjalizuje się w projektowaniu sklepów, biur, Airbnb, wnętrz domowych oraz koncepcjach biznesowych."
   },
   "NotFoundPage": {
-    "description": "Proszę sprawdź poprawność adresu w przeglądarce lub skorzystaj z nawigacji, aby przejść do znanej strony.",
+    "description": "Proszę sprawdzić pasek adresu przeglądarki lub użyć nawigacji, aby przejść do znanej strony.",
     "title": "Strona nie znaleziona"
   },
   "Header": {
-    "nav-home": "Główna",
+    "nav-home": "Strona główna",
     "nav-projects": "Projekty",
     "nav-whatWeDo": "Usługi",
     "nav-about": "O nas",
@@ -23,14 +23,14 @@
     "categories": {
       "all": "Wszystkie",
       "commercial": "Komercyjne",
-      "residential": "Mieszkaniowe"
+      "residential": "Mieszkalne"
     }
   },
   "ProjectPage": {
     "location": "Lokalizacja",
     "area": "Powierzchnia",
     "year": "Rok",
-    "achievements": "Co zostało wykonane"
+    "achievements": "Co zostało zrobione"
   },
   "mainPage": {
     "title": "Natalie Pyndyk Design",
@@ -38,7 +38,7 @@
   },
   "contactModal": {
     "title": "Skontaktuj się",
-    "email": "Email",
+    "email": "E-mail",
     "phone": "Telefon",
     "close": "Zamknij"
   },
@@ -47,22 +47,22 @@
   },
   "AboutPage": {
     "title": "O nas",
-    "description": "Natalia Pyndyk to polska projektantka wnętrz znana z innowacyjnego podejścia do tworzenia harmonijnych przestrzeni. Specjalizuje się w projektowaniu wnętrz komercyjnych, mieszkalnych i przestrzeni publicznych. Doświadczenie zawodowe obejmuje pracę jako niezależna projektantka wnętrz, główna projektantka architektoniczna w Art Village DVLP w Teksasie (USA) oraz projektantka przestrzeni biurowych w SoftServe.\n\nDzięki swojemu zaangażowaniu i kreatywności, Natalia zdobyła uznanie klientów i kolegów z branży projektowania wnętrz."
+    "description": "<b>Natalia Pyndyk</b>\n\nProjektantka wnętrz i architekt z ponad 8-letnim doświadczeniem w projektowaniu przestrzeni prywatnych i komercyjnych od koncepcji wstępnej do realizacji.\n\n<b>Prywatne przestrzenie zaprojektowane do prawdziwego życia</b>\n\nTworzę kompleksowe projekty dla tych, którzy chcą, aby przestrzeń była dostosowana do nich – funkcjonalna, spójna, zaprojektowana z dbałością o szczegóły i w pełni gotowa dla Twojej ekipy remontowej do realizacji.\nMój proces opiera się na zrozumieniu Twojego indywidualnego stylu życia, Twoich nawyków i tego, co sprawia, że czujesz się naprawdę jak w domu, aby Twoje codzienne życie było płynniejsze, spokojniejsze i bardziej inspirujące.\nMoim celem jest tworzenie wnętrz, które działają tak pięknie, jak wyglądają.\n\n<b>Przestrzenie komercyjne tworzone z celem i charakterem</b>\n\nProjektuję kompleksowe, strategicznie opracowane środowiska dla przestrzeni komercyjnych — sklepów, restauracji, salonów piękności, showroomów itp. Moje podejście łączy estetykę, funkcjonalność i tożsamość marki, aby tworzyć wnętrza, które nie tylko wyglądają wyjątkowo, ale także angażują klientów i wspierają cele biznesowe.\nKażdy projekt jest zbudowany wokół przemyślanej koncepcji i obejmuje każdy szczegół potrzebny do ożywienia Twojej przestrzeni: kierunek estetyczny, dobór materiałów, projekt oświetlenia, zasoby marketingowe, wizualizacje, koncepcje witryn sklepowych itp.\n\n<b>Doświadczenie zawodowe</b>\n\nProjektowanie wnętrz (60+ projektów)\ndomy mieszkalne, apartamenty, handel detaliczny, biura, HoReCa, zakłady kosmetyczne i medyczne.\n\nProjektowanie architektoniczne (20+ projektów)\ndomy prywatne szkieletowe, koncepcje handlu detalicznego i biur.\n\nBranding i projektowanie graficzne (100+ projektów)\nprodukty, które są integralną częścią projektów komercyjnych.\n\n<b>Nagrody</b>\n\n2024 – Projekt domu na zamówienie 1. miejsce, Best in show, AIBD (American Institute Of Building Design)\n2023 – Projekt domu na zamówienie 1. miejsce, AIBD (American Institute Of Building Design)\n2019 – Nagroda konkursu Get Me 2 the Top Ukraine, SBID (The Society of British & International Interior Design)"
   },
   "WhatWeDoPage": {
     "tile1": {
       "title": "PROJEKT WNĘTRZ DLA PRZESTRZENI KOMERCYJNYCH I BIUROWYCH",
-      "content": "<b>Koncept</b>\nanaliza potrzeb, analiza marki, analiza przestrzeni, określenie ogólnego stylu, szkicowanie kluczowych pomysłów\n\n<b>Planowanie</b>\nopracowanie podziału na strefy, funkcjonalne rozmieszczenie, ścieżka klienta, punkty centralne, rozmieszczenie produktów\n\n<b>Szczegółowy projekt</b>\nOpracowanie wszystkich elementów wnętrza przedstawionych na wizualizacjach 3D oraz dobór materiałów\n\n<b>Projekt witryn i przestrzeni zewnętrznych</b>\nPozwól ludziom dowiedzieć się o Twojej firmie bez konieczności wchodzenia do środka.\n\n<b>Rysunki techniczne</b>\nWszystko czego potrzebujesz do realizacji projektu: rysunki wykonawcze, rysunki mebli i elementów niestandardowych\n\n<b>Elementy graficzne</b>\nProjekt materiałów POS, elementów nawigacji, znaków i elementów reklamowych.\n\n<b>Specyfikacja wyposażenia i materiałów</b>\nInformacje o produktach i materiałach wykończeniowych do zakupu",
+      "content": "<b>Koncepcja</b>\nbadanie potrzeb, analiza marki, analiza pomieszczeń, określenie ogólnego stylu, szkice kluczowych pomysłów\n\n<b>Planowanie</b>\nopracowanie podziału na strefy, rozmieszczenia funkcjonalnego, ścieżki klienta, punktów centralnych, rozmieszczenia produktów\n\n<b>Projekt szczegółowy</b>\nOpracowanie wszystkich elementów wnętrza, przedstawionych na wizualizacjach 3D i dobór materiałów\n\n<b>Projekt witryn i terenów zewnętrznych</b>\nPozwala ludziom dowiedzieć się o Twojej firmie, nie czekając, aż wejdą do środka.\n\n<b>Rysunki</b>\nWszystko, czego potrzebujesz do realizacji projektu: rysunki do remontu, rysunki do wykonania mebli i elementów niestandardowych\n\n<b>Elementy graficzne</b>\nProjekt materiałów POS, elementów nawigacji, znaków i elementów reklamowych.\n\n<b>Specyfikacja wyposażenia i materiałów</b>\nInformacje o produktach i materiałach wykończeniowych do zakupu\n",
       "alt": "Ilustracja przestrzeni biurowej"
     },
     "tile2": {
       "title": "PROJEKT WNĘTRZ DLA PRZESTRZENI PRYWATNYCH",
-      "content": "<b>Koncept</b>\nanaliza potrzeb i preferencji, analiza przestrzeni, określenie ogólnego stylu, szkicowanie kluczowych pomysłów\n\n<b>Planowanie</b>\nopracowanie podziału na strefy i funkcjonalne rozmieszczenie\n\n<b>Szczegółowy projekt</b>\nOpracowanie wszystkich elementów wnętrza przedstawionych na wizualizacjach 3D oraz dobór materiałów\n\n<b>Rysunki techniczne</b>\nWszystko czego potrzebujesz do realizacji projektu: rysunki wykonawcze, rysunki mebli i elementów niestandardowych\n\n<b>Specyfikacja wyposażenia i materiałów</b>\nInformacje o produktach i materiałach wykończeniowych do zakupu",
+      "content": "<b>Koncepcja</b>\nbadanie potrzeb i preferencji, analiza pomieszczeń, określenie ogólnego stylu, szkice kluczowych pomysłów\n\n<b>Planowanie</b>\nopracowanie podziału na strefy, rozmieszczenia funkcjonalnego\n\n<b>Projekt szczegółowy</b>\nOpracowanie wszystkich elementów wnętrza, przedstawionych na wizualizacjach 3D i dobór materiałów\n\n<b>Rysunki</b>\nWszystko, czego potrzebujesz do realizacji projektu: rysunki do remontu, rysunki do wykonania mebli i elementów niestandardowych\n\n<b>Specyfikacja wyposażenia i materiałów</b>\nInformacje o produktach i materiałach wykończeniowych do zakupu\n",
       "alt": "Ilustracja przestrzeni prywatnej"
     },
     "tile3": {
       "title": "",
-      "content": "<title>NADZÓR</title>Chętnie poprowadzimy Cię przez proces realizacji projektu i pomożemy uniknąć nieprzewidzianych sytuacji.\n\n<title>CZĘŚCIOWY PROJEKT</title>Jeśli nie potrzebujesz pełnego zakresu usług lub jesteś już na określonym etapie prac, skontaktuj się z nami aby omówić optymalny projekt.\n\n<title>KONSULTACJE</title>Jeśli masz wątpliwości dotyczące projektu, zawsze możesz skontaktować się z nami po poradę. Możemy Ci pomóc jeśli:\nnie jesteś pewien czy dana przestrzeń jest odpowiednim wyborem\nchcesz rozważyć pomysły na wykorzystanie przestrzeni\npotrzebujesz zewnętrznego spojrzenia na możliwości ulepszenia przestrzeni",
+      "content": "<title>NADZÓR</title>Z przyjemnością poprowadzimy Cię przez realizację Twojego projektu i pomożemy uniknąć nieprzewidzianych sytuacji i problemów po drodze.\n\n<title>PROJEKT CZĘŚCIOWY</title>Jeśli nie potrzebujesz całej listy usług lub jesteś już na pewnym etapie prac w pomieszczeniu, skontaktuj się z nami, aby omówić optymalny projekt dla Ciebie.\n\n<title>KONSULTACJE</title>Jeśli wahasz się co do swojego projektu, zawsze możesz skontaktować się z nami po poradę. Możemy Ci pomóc, jeśli:\nnie jesteś pewien, czy dane pomieszczenie jest właściwym wyborem\nchcesz rozważyć pomysły na wykorzystanie przestrzeni\npotrzebujesz zewnętrznego spojrzenia na możliwości poprawy przestrzeni\n",
       "alt": "Ilustracja nadzoru"
     }
   }
