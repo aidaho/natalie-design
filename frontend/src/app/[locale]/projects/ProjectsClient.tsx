@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import type { ProjectData } from "./utils"
@@ -16,6 +16,34 @@ export default function ProjectsClient({
 }) {
   const [selectedType, setSelectedType] = useState("All")
 
+  // Initialize from URL hash on component mount
+  useEffect(() => {
+    const hash = window.location.hash.substring(1) // Remove the '#'
+    if (hash && types.includes(hash)) {
+      setSelectedType(hash)
+    }
+  }, [types])
+
+  // Update URL hash when filter changes
+  useEffect(() => {
+    if (selectedType === "All") {
+      // Remove hash if "All" is selected
+      if (window.location.hash) {
+        window.history.replaceState(null, "", window.location.pathname)
+      }
+    } else {
+      // Update hash with selected type
+      const newHash = `#${selectedType}`
+      if (window.location.hash !== newHash) {
+        window.history.replaceState(null, "", newHash)
+      }
+    }
+  }, [selectedType])
+
+  const handleTypeClick = (type: string) => {
+    setSelectedType(type)
+  }
+
   const filteredProjects =
     selectedType === "All"
       ? projects
@@ -27,7 +55,7 @@ export default function ProjectsClient({
         {types.map(type => (
           <button
             key={type}
-            onClick={() => setSelectedType(type)}
+            onClick={() => handleTypeClick(type)}
             className={`px-4 py-2 lg ${
               type === selectedType
                 ? "btn-primary text-white"

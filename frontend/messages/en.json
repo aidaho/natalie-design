@@ -43,7 +43,7 @@
     "close": "Close"
   },
   "Footer": {
-    "text": "© 2025 Serhii Frolov"
+    "text": "© 2026 Serhii Frolov"
   },
   "AboutPage": {
     "title": "About",
@@ -52,12 +52,12 @@
   "WhatWeDoPage": {
     "tile1": {
       "title": "DESIGN PROJECT FOR COMMERCIAL & OFFICE SPACES",
-      "content": "<h3>Concept</h3>\nstudying the needs, brand analysis, premises analysis, defining a general style, sketching key ideas \n\n\n<h3>Planning</h3>\ndevelopment of zonal division, functional arrangement, customer journey, focal points, product placement\n\n\n<h3>Design in detail</h3>\nDevelopment of all interior elements, displayed in 3D visualizations and materials selection\n\n\n<h3>Design of showcases and outdoor areas</h3>\nLetting people find out about your business without waiting for them to come in.\n\n\n<h3>Drawings</h3>\nEverything you need to implement the design: drawings for repair, drawings for furniture and custom elements execution \n\n\n<h3>Graphic elements</h3>\nDesign of POS-materials, navigation elements, signs and advertisement elements.\n\n\n<h3>Specification of equipment and materials</h3>\nInformation of products and facing materials to be purchased",
+      "content": "<h3>Concept</h3>\nstudying the needs, brand analysis, premises analysis, defining a general style, sketching key ideas \n\n\n<h3>Planning</h3>\ndevelopment of zonal division, functional arrangement, customer journey, focal points, product placement\n\n\n<h3>Design in detail</h3>\nDevelopment of all interior elements, displayed in 3D visualizations and materials selection\n\n\n<h3>Design of showcases and outdoor areas</h3>\nLetting people find out about your business without waiting for them to come in.\n\n\n<h3>Drawings</h3>\nEverything you need to implement the design: drawings for repair, drawings for furniture and custom elements execution \n\n\n<h3>Graphic elements</h3>\nDesign of POS-materials, navigation elements, signs and advertisement elements.\n\n\n<h3>Specification of equipment and materials</h3>\nInformation of products and facing materials to be purchased\n\n<link2projects2commercial>See the projects</link2projects2commercial>",
       "alt": "Office space illustration"
     },
     "tile2": {
       "title": "DESIGN PROJECT FOR PRIVATE SPACES",
-      "content": "<h3>Concept</h3>\nstudying the needs and preferences, premises analysis, defining a general style, sketching key ideas\n\n\n<h3>Planning</h3>\ndevelopment of zonal division, functional arrangement\n\n\n<h3>Design in detail</h3>\nDevelopment of all interior elements, displayed in 3D visualizations and materials selection\n\n\n<h3>Drawings</h3>\nEverything you need to implement the design: drawings for repair, drawings for furniture and custom elements execution\n\n\n<h3>Specification of equipment and materials</h3>\nInformation of products and facing materials to be purchased\n",
+      "content": "<h3>Concept</h3>\nstudying the needs and preferences, premises analysis, defining a general style, sketching key ideas\n\n\n<h3>Planning</h3>\ndevelopment of zonal division, functional arrangement\n\n\n<h3>Design in detail</h3>\nDevelopment of all interior elements, displayed in 3D visualizations and materials selection\n\n\n<h3>Drawings</h3>\nEverything you need to implement the design: drawings for repair, drawings for furniture and custom elements execution\n\n\n<h3>Specification of equipment and materials</h3>\nInformation of products and facing materials to be purchased\n\n<link2projects2residential>See the projects</link2projects2residential>",
       "alt": "Private space illustration"
     },
     "tile3": {
