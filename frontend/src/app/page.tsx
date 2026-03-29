@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation"
-
-// This page only renders when the app is built statically (output: 'export')
+import { routing } from "@/i18n/routing"
+                                                                                                                                              // This page only renders when the app is built statically (output: 'export')
 export default function RootPage() {
-  redirect("/en")
+  // Redirect to default locale's projects page
+  redirect(`/${routing.defaultLocale}/projects`)
 }

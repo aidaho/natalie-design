@@ -1,8 +1,9 @@
-import { useTranslations } from "next-intl"
-import { setRequestLocale } from "next-intl/server"
+// import { useTranslations } from "next-intl"
+// import { setRequestLocale } from "next-intl/server"
 import { use } from "react"
-import PageLayout from "@/components/PageLayout"
-import ClientButtonWithModal from "@/components/ClientButtonWithModal"
+// import PageLayout from "@/components/PageLayout"
+// import ClientButtonWithModal from "@/components/ClientButtonWithModal"
+import { redirect } from "next/navigation"
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -10,23 +11,32 @@ type Props = {
 
 export default function IndexPage(props: Props) {
   const params = use(props.params)
-  // Enable static rendering
   const locale = params.locale
-  setRequestLocale(locale)
 
-  const t = useTranslations("mainPage")
-
-  return (
-    <PageLayout background="/images/index-background.jpg">
-      <div className="container mx-auto h-full flex flex-col items-center justify-center min-h-[600px] text-center">
-        <h1
-          className="text-7xl font-bold mb-8 text-white px-4 py-2 lg"
-          style={{ textShadow: "0 0 2px gray, 0 0 2px gray, 0 0 2px gray" }}
-        >
-          {t("title")}
-        </h1>
-        <ClientButtonWithModal />
-      </div>
-    </PageLayout>
-  )
+  // Redirect to the projects page for this locale
+  redirect(`/${locale}/projects`)
 }
+
+// NOTE: Home Page is disabled for now
+// export default function IndexPage(props: Props) {
+//   const params = use(props.params)
+//   // Enable static rendering
+//   const locale = params.locale
+//   setRequestLocale(locale)
+
+//   const t = useTranslations("mainPage")
+
+//   return (
+//     <PageLayout background="/images/index-background.jpg">
+//       <div className="container mx-auto h-full flex flex-col items-center justify-center min-h-[600px] text-center">
+//         <h1
+//           className="text-7xl font-bold mb-8 text-white px-4 py-2 lg"
+//           style={{ textShadow: "0 0 2px gray, 0 0 2px gray, 0 0 2px gray" }}
+//         >
+//           {t("title")}
+//         </h1>
+//         <ClientButtonWithModal />
+//       </div>
+//     </PageLayout>
+//   )
+// }

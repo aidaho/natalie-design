@@ -10,7 +10,7 @@ export default function Header({ locale }: { locale: string }) {
   const pathname = usePathname()
 
   const navLinks = [
-    { href: "/", key: "nav-home" },
+    // { href: "/", key: "nav-home" }, // NOTE: Home Page is disabled for now
     { href: "/projects", key: "nav-projects" },
     { href: "/what-we-do", key: "nav-whatWeDo" },
     { href: "/about", key: "nav-about" },
@@ -95,7 +95,7 @@ export default function Header({ locale }: { locale: string }) {
                 </button>
               ) : (
                 <Link
-                  className={`text-lg hover:underline [&.active]:bg-transparent ${pathname === `/${locale}${link.href}` || (link.href === "/" && pathname === `/${locale}`) ? "underline" : ""}`}
+                  className={`text-lg hover:underline [&.active]:bg-transparent ${pathname === `/${locale}${link.href}` ? "underline" : ""}`}
                   href={`/${locale}${link.href}`}
                 >
                   {t(link.key)}
